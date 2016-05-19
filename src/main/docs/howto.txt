@@ -1,0 +1,11 @@
+JAX-WS:
+
+- Gebruik TomEE plus voor ondersteuning JAX-WS
+- mvn clean install voor bouwen project
+- genereren WSDL : mvn jaxws:wsgen -> wsdl komt in target/generated-sources/wsdl
+
+URL in SOAP-UI is :
+http://localhost:8080/jaxws/webservices/ServiceImpl
+
+Afdrukken WSDL in browser:
+http://localhost:8080/jaxws/webservices/ServiceImpl?wsdl
